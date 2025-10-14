@@ -1,4 +1,4 @@
-# ❄️ Winter AR Scene – Human Computer Interaction Exercise 05
+# ❄️ Winter AR Scene – Human Computer Interaction
 
 This project is part of the Human-Computer Interaction (HCI) course and demonstrates the use of Augmented Reality (AR) in a browser environment using A-Frame and WebXR.
 
