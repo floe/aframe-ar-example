@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Winter AR Scene</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-ar@1.8.1/dist/aframe-ar.min.js"></script>
+  </head>
+
+  <body style="margin:0;overflow:hidden;">
+    <a-scene
+      embedded
+      renderer="colorManagement: true;"
+      xr-mode-ui="enabled: true;"
+      ar-hit-test
+    >
+      <a-entity light="type: ambient; intensity: 0.8"></a-entity>
+      <a-entity light="type: directional; intensity: 0.8" position="1 1 0"></a-entity>
+      <a-plane rotation="-90 0 0" width="4" height="4" color="#eef9ff"></a-plane>
+      <a-camera position="0 1.6 0"></a-camera>
+    </a-scene>
+  </body>
+</html>
